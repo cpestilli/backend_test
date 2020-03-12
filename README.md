@@ -17,10 +17,6 @@ A proposta deste teste é criar uma integração integrações com a API da marv
 ## Banco de dados
  Conexão com banco de dados postgre
  
-  host: 'dev-corretora.c1azfmlnyyxx.us-east-1.rds.amazonaws.com'
-  username: 'admin_user'
-  password: 'Corretora2019'
-  database: 'corretora_development'
 
 ## Especificação do projeto
 
