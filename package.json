@@ -1,0 +1,33 @@
+{
+  "name": "backend_test",
+  "version": "1.0.0",
+  "description": "A proposta deste teste é criar uma integração integrações com a API da marvel.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpaulcorretora/backend_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simpaulcorretora/backend_test/issues"
+  },
+  "homepage": "https://github.com/simpaulcorretora/backend_test#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "http-status-codes": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
