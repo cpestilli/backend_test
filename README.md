@@ -15,8 +15,12 @@ A proposta deste teste é criar uma integração integrações com a API da marv
   - Detalhe no README.md as informações necessárias para que podamos avaliar seu teste.
 
 ## Banco de dados
- - Utilizar um banco noSQL 
- - Criar uma conta em algum serviço datase-as-a-service para persistir os dados. Sujestão utilzar o mlab (https://mlab.com/).
+ Conexão com banco de dados postgre
+ 
+  host: 'dev-corretora.c1azfmlnyyxx.us-east-1.rds.amazonaws.com'
+  username: 'admin_user'
+  password: 'Corretora2019'
+  database: 'corretora_development'
 
 ## Especificação do projeto
 
@@ -24,19 +28,18 @@ A proposta deste teste é criar uma integração integrações com a API da marv
   - Implemente sua API seguindo as melhores práticas de arquitetura e design patterns.
   - Utilize as libs que ache necessário na implementação do seu app.
 
-## Primeiro exercício 
+## Primeiro exercício  
 
-  - Criar um endpoint que obtem todos os "comics" e "series" dos "Avengers".
-  - Persistir o retorno do endpoint em um banco MondoDB  
-
+  - Criar um endpoint para recuperar da api Marvel o personagem (characters) "Avengers" e todas suas publicações (comics).
+ 
 ## Segundo exercício
   
-  - Criar um endpoint para atualizar todos os items  "resourceURI" para "http://simpaul.com.br"  no documento "series" 
+  - Criar um modelo de dados para persistir qualquer personagem (characters) e suas publicações (publicações)
+  - Persistir os dados recuperados no exercício anterior e persistir no banco de dados postgre
 
 ## Terceiro exercício
  
-  - Criar um endpoint para criar um novo item no documento "comics"   
-  
+  - Criar um endpoint para persistir um personagem (characters) chamado "hulk" e uma lista publicações (comics) no modelo de dados do execício anterior.
 
 
 
